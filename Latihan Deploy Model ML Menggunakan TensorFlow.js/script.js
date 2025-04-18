@@ -1,5 +1,17 @@
 // ----Kolom deklarasi variabel-----
-
+let input = document.querySelector('input');
+let button = document.querySelector('button');
+button.addEventListener('click', onClick);
+ 
+let isModelLoaded = false;
+let model;
+let word2index;
+ 
+// Parameter data preprocessing
+const maxlen = 20;
+const vocab_size = 2000;
+const padding = 'post';
+const truncating = 'post';
 
 // -----------------------------------
 
