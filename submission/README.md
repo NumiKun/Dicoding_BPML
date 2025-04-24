@@ -11,3 +11,6 @@ Proyek ini merupakan implementasi deep learning untuk mengklasifikasikan gambar 
 git clone <repo-url>
 cd submission
 pip install -r requirements.txt
+```
+
+### 2. Jalankan file notebook.ipynb
